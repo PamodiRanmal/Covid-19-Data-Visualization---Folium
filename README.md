@@ -1,5 +1,7 @@
 # Covid-19-Data-Visualization-Folium
 
+In this project the number of daily vacinations against covid 19 has been analized based on countries. Final output shows the top 5 countries that had the hightest vaccinations prior to 2022 on a Map created with Folium. On the final map we have marker on top five countries and when we click on each marker it shows the, hights number of daily vaccination reported and the names of the vaccines those were used.
+
 Loom Rocording - : https://www.loom.com/share/8a2c5aab3fa746d5a5978635b35e26d0
 
 How to Run this script
