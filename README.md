@@ -9,7 +9,13 @@ Replace the kaggle json with the kaggle Json you downloaded from Kaggle-> Profil
 
 Ref: https://buggyprogrammer.com/load-kaggle-dataset-in-colab-or-jupyter/ 
 
-Then go go to Cell and select 'run all' option.
-
 Please note that Github is not rendering the Jupyter notebook previews fully. 
 If you want to check the complete output you must open this file on Google Colab, Jupyter notebook or Pycharm
+
+1.) Jupyter Notebook
+Then go to Cell and select 'run all' option.
+
+2.Google Colab
+You can check the script and the output by opening the following file with Google Colaboratory
+https://drive.google.com/file/d/1ZfEog0pqQnxOg3C1SL056c6H90Ipk8ou/view?usp=sharing
+
