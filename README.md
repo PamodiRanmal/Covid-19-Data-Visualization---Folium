@@ -1,32 +1,49 @@
 # Covid-19-Data-Visualization-Folium
 
+## Project Overview
+This project focuses on analyzing the daily COVID-19 vaccination data by country, with a specific emphasis on the top 5 countries with the highest vaccination numbers prior to 2022. An interactive map created using Folium displays markers for these countries, indicating the highest number of daily vaccinations reported and the names of the vaccines used.
 
-In this project, the number of daily vaccinations against covid 19 has been analyzed based on countries. The final output shows the top 5 countries that had the highest number of daily vaccinations prior to 2022 on a Map created with Folium. On the final map, we have markers on the top five countries and when we click on each marker it shows the highest number of daily vaccination reported and the names of the vaccines that were used.
+## Features
+- Data analysis of daily COVID-19 vaccinations by country.
+- Interactive map visualization with Folium.
+- Insight into the top 5 countries with the highest vaccination rates before 2022.
 
+## Setup and Installation
 
-Loom Rocording - : https://www.loom.com/share/8a2c5aab3fa746d5a5978635b35e26d0
+### Prerequisites
+- Python 3.x
+- Jupyter Notebook
+- pip package manager
+- Virtual environment (optional but recommended)
 
+### Environment Setup
+1. Clone the repository to your local machine.
+   ```bash
+   git clone https://github.com/ranmalmendis/Covid-19-Data-Visualization-Folium.git
+   ```
+2. Navigate to the project's root directory.
+   ```bash
+   cd Covid-19-Data-Visualization-Folium
+   ```
 
-How to Run this script
+### Kaggle API Setup
+1. Download your Kaggle API key (`kaggle.json`) from Kaggle -> Profile -> Account.
+2. Place `kaggle.json` in the project root.
 
+   Reference: https://buggyprogrammer.com/load-kaggle-dataset-in-colab-or-jupyter/
 
-Clone the project and go to the root folder.
-Replace the kaggle json with the kaggle Json you downloaded from Kaggle-> Profile-> Accounts
+## Running the Script on Jupyter Notebook
 
+1. Launch Jupyter Notebook.
+   ```bash
+   jupyter notebook
+   ```
+2. In the Jupyter Notebook interface, navigate to and open the project notebook (`Covid 19 Data Visualization.ipynb`).
+3. Run the notebook cells sequentially or use the `Run All` option in the `Cell` menu to execute the entire notebook.
 
-Ref: https://buggyprogrammer.com/load-kaggle-dataset-in-colab-or-jupyter/ 
+### Note
+GitHub may not fully render Jupyter notebooks. For a complete view of the output, it's recommended to run the notebook locally in Jupyter Notebook or use Google Colab.
 
-
-Please note that Github is not rendering the Jupyter notebook previews fully. 
-If you want to check the complete output you must open this file on Google Colab, Jupyter notebook or Pycharm
-
-
-1.) Jupyter Notebook
-
-Then go to Cell and select 'run all' option.
-
-2.Google Colab
-
-You can check the script and the output by opening the following file with Google Colaboratory
-https://drive.google.com/file/d/1ZfEog0pqQnxOg3C1SL056c6H90Ipk8ou/view?usp=sharing
+## Additional Resources
+- Watch a Loom recording of the project in action: https://www.loom.com/share/8a2c5aab3fa746d5a5978635b35e26d0
 
